@@ -12,4 +12,17 @@
   </div>
   <p>Hej</p>
   <p>JESTEM W 7 Niebie</p>
+
+
+  <div>
+    <h1><a href="/">Ja jebengo Girls Blog</a></h1>
+  </div>
+
+  {% for post in posts %}
+  <div>
+    <p>published: {{ post.published_date }}</p>
+    <h1><a href="">{{ post.title }}</a></h1>
+    <p>{{ post.text|linebreaksbr }}</p>
+  </div>
+  {% endfor %}
 </html>

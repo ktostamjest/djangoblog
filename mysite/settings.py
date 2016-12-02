@@ -25,7 +25,7 @@ SECRET_KEY = '7amjrmpu_-qnp%o51^kbi&kcrt((f91!ly_te=whsds0l)$b4k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["http://ktostamjest.pythonanywhere.com/", 'localhost']
+ALLOWED_HOSTS = ["ktostamjest.pythonanywhere.com", 'localhost']
 
 
 # Application definition

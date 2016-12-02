@@ -25,7 +25,7 @@ SECRET_KEY = '7amjrmpu_-qnp%o51^kbi&kcrt((f91!ly_te=whsds0l)$b4k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["http://ktostamjest.pythonanywhere.com/"]
 
 
 # Application definition
@@ -121,4 +121,3 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'public', 'static')
 
-STATIC_ALLOW = ["http://ktostamjest.pythonanywhere.com/"]
